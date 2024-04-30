@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1493792BE045C6005A3384 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DC1493782BE045C6005A3384 /* Localizable.xcstrings */; };
+		DC3A3D8F2BDDC65A00073AAD /* HabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3D8E2BDDC65A00073AAD /* HabitListView.swift */; };
+		DC3A3D912BDDC6A200073AAD /* HabitNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3D902BDDC6A200073AAD /* HabitNameView.swift */; };
+		DC3A3D932BDDC6FB00073AAD /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3D922BDDC6FB00073AAD /* DayView.swift */; };
+		DC3A3D952BDDC7FD00073AAD /* ManageHabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3D942BDDC7FD00073AAD /* ManageHabitsView.swift */; };
+		DC3A3D972BDDC82200073AAD /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3D962BDDC82200073AAD /* BackButtonView.swift */; };
+		DC3A3D992BDDC83C00073AAD /* JumpToDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3D982BDDC83C00073AAD /* JumpToDateView.swift */; };
+		DC3A3D9B2BDDC85600073AAD /* JumpToDateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3D9A2BDDC85600073AAD /* JumpToDateButtonView.swift */; };
+		DC3A3D9D2BDDC8B700073AAD /* ManageHabitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3D9C2BDDC8B700073AAD /* ManageHabitsListView.swift */; };
+		DC3A3D9F2BDDC8D300073AAD /* ManageHabitsSectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3D9E2BDDC8D300073AAD /* ManageHabitsSectionTitleView.swift */; };
+		DC3A3DA12BDDC8ED00073AAD /* ManageHabitsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3DA02BDDC8ED00073AAD /* ManageHabitsRowView.swift */; };
+		DC3A3DA32BDDC90000073AAD /* EditHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3DA22BDDC90000073AAD /* EditHabitView.swift */; };
+		DC3A3DA52BDDC91300073AAD /* FormButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A3DA42BDDC91300073AAD /* FormButtonView.swift */; };
+		DC486D042BD5E5C3005BFBAF /* HabitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486D032BD5E5C3005BFBAF /* HabitTrackerApp.swift */; };
+		DC486D062BD5E5C3005BFBAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486D052BD5E5C3005BFBAF /* ContentView.swift */; };
+		DC486D082BD5E5C5005BFBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC486D072BD5E5C5005BFBAF /* Assets.xcassets */; };
+		DC486D0B2BD5E5C5005BFBAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC486D0A2BD5E5C5005BFBAF /* Preview Assets.xcassets */; };
+		DC486D122BD5E5DB005BFBAF /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486D112BD5E5DB005BFBAF /* Habit.swift */; };
+		DC486D1B2BD73E2F005BFBAF /* Gaegu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC486D192BD73E2F005BFBAF /* Gaegu-Regular.ttf */; };
+		DC486D1C2BD73E2F005BFBAF /* Gaegu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC486D1A2BD73E2F005BFBAF /* Gaegu-Bold.ttf */; };
+		DC486D1F2BD94105005BFBAF /* ShownDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486D1E2BD94105005BFBAF /* ShownDate.swift */; };
+		DC486D212BD95DDC005BFBAF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486D202BD95DDC005BFBAF /* Theme.swift */; };
+		DC486D232BDAEA64005BFBAF /* HabitFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486D222BDAEA64005BFBAF /* HabitFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC1493782BE045C6005A3384 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DC3A3D8E2BDDC65A00073AAD /* HabitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListView.swift; sourceTree = "<group>"; };
+		DC3A3D902BDDC6A200073AAD /* HabitNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitNameView.swift; sourceTree = "<group>"; };
+		DC3A3D922BDDC6FB00073AAD /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		DC3A3D942BDDC7FD00073AAD /* ManageHabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageHabitsView.swift; sourceTree = "<group>"; };
+		DC3A3D962BDDC82200073AAD /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		DC3A3D982BDDC83C00073AAD /* JumpToDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpToDateView.swift; sourceTree = "<group>"; };
+		DC3A3D9A2BDDC85600073AAD /* JumpToDateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpToDateButtonView.swift; sourceTree = "<group>"; };
+		DC3A3D9C2BDDC8B700073AAD /* ManageHabitsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageHabitsListView.swift; sourceTree = "<group>"; };
+		DC3A3D9E2BDDC8D300073AAD /* ManageHabitsSectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageHabitsSectionTitleView.swift; sourceTree = "<group>"; };
+		DC3A3DA02BDDC8ED00073AAD /* ManageHabitsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageHabitsRowView.swift; sourceTree = "<group>"; };
+		DC3A3DA22BDDC90000073AAD /* EditHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHabitView.swift; sourceTree = "<group>"; };
+		DC3A3DA42BDDC91300073AAD /* FormButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormButtonView.swift; sourceTree = "<group>"; };
+		DC486D002BD5E5C3005BFBAF /* Forget Me Not - Habit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forget Me Not - Habit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC486D032BD5E5C3005BFBAF /* HabitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerApp.swift; sourceTree = "<group>"; };
+		DC486D052BD5E5C3005BFBAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC486D072BD5E5C5005BFBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC486D0A2BD5E5C5005BFBAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC486D112BD5E5DB005BFBAF /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		DC486D182BD73C72005BFBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC486D192BD73E2F005BFBAF /* Gaegu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaegu-Regular.ttf"; sourceTree = "<group>"; };
+		DC486D1A2BD73E2F005BFBAF /* Gaegu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaegu-Bold.ttf"; sourceTree = "<group>"; };
+		DC486D1E2BD94105005BFBAF /* ShownDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShownDate.swift; sourceTree = "<group>"; };
+		DC486D202BD95DDC005BFBAF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DC486D222BDAEA64005BFBAF /* HabitFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC486CFD2BD5E5C3005BFBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3A3DA62BDDC98200073AAD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A3D8E2BDDC65A00073AAD /* HabitListView.swift */,
+				DC3A3D902BDDC6A200073AAD /* HabitNameView.swift */,
+				DC3A3D922BDDC6FB00073AAD /* DayView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DC3A3DA72BDDC99400073AAD /* Manage habits */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A3D942BDDC7FD00073AAD /* ManageHabitsView.swift */,
+				DC3A3D982BDDC83C00073AAD /* JumpToDateView.swift */,
+				DC3A3D9A2BDDC85600073AAD /* JumpToDateButtonView.swift */,
+				DC3A3D9C2BDDC8B700073AAD /* ManageHabitsListView.swift */,
+				DC3A3D9E2BDDC8D300073AAD /* ManageHabitsSectionTitleView.swift */,
+				DC3A3DA02BDDC8ED00073AAD /* ManageHabitsRowView.swift */,
+			);
+			path = "Manage habits";
+			sourceTree = "<group>";
+		};
+		DC3A3DA82BDDC9A500073AAD /* Habit editing */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A3DA22BDDC90000073AAD /* EditHabitView.swift */,
+				DC3A3DA42BDDC91300073AAD /* FormButtonView.swift */,
+			);
+			path = "Habit editing";
+			sourceTree = "<group>";
+		};
+		DC3A3DA92BDDC9D900073AAD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A3D962BDDC82200073AAD /* BackButtonView.swift */,
+				DC486D222BDAEA64005BFBAF /* HabitFactory.swift */,
+				DC486D202BD95DDC005BFBAF /* Theme.swift */,
+				DC486D1E2BD94105005BFBAF /* ShownDate.swift */,
+				DC486D112BD5E5DB005BFBAF /* Habit.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DC486CF72BD5E5C3005BFBAF = {
+			isa = PBXGroup;
+			children = (
+				DC486D022BD5E5C3005BFBAF /* Forget Me Not - Habit Tracker */,
+				DC486D012BD5E5C3005BFBAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC486D012BD5E5C3005BFBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC486D002BD5E5C3005BFBAF /* Forget Me Not - Habit Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC486D022BD5E5C3005BFBAF /* Forget Me Not - Habit Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				DC486D032BD5E5C3005BFBAF /* HabitTrackerApp.swift */,
+				DC486D052BD5E5C3005BFBAF /* ContentView.swift */,
+				DC3A3DA62BDDC98200073AAD /* Home */,
+				DC3A3DA72BDDC99400073AAD /* Manage habits */,
+				DC3A3DA82BDDC9A500073AAD /* Habit editing */,
+				DC3A3DA92BDDC9D900073AAD /* Shared */,
+				DC486D152BD73BD3005BFBAF /* fonts */,
+				DC486D182BD73C72005BFBAF /* Info.plist */,
+				DC1493782BE045C6005A3384 /* Localizable.xcstrings */,
+				DC486D072BD5E5C5005BFBAF /* Assets.xcassets */,
+				DC486D092BD5E5C5005BFBAF /* Preview Content */,
+			);
+			path = "Forget Me Not - Habit Tracker";
+			sourceTree = "<group>";
+		};
+		DC486D092BD5E5C5005BFBAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC486D0A2BD5E5C5005BFBAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC486D152BD73BD3005BFBAF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DC486D1A2BD73E2F005BFBAF /* Gaegu-Bold.ttf */,
+				DC486D192BD73E2F005BFBAF /* Gaegu-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC486CFF2BD5E5C3005BFBAF /* Forget Me Not - Habit Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC486D0E2BD5E5C5005BFBAF /* Build configuration list for PBXNativeTarget "Forget Me Not - Habit Tracker" */;
+			buildPhases = (
+				DC486CFC2BD5E5C3005BFBAF /* Sources */,
+				DC486CFD2BD5E5C3005BFBAF /* Frameworks */,
+				DC486CFE2BD5E5C3005BFBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forget Me Not - Habit Tracker";
+			productName = HabitTracker;
+			productReference = DC486D002BD5E5C3005BFBAF /* Forget Me Not - Habit Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC486CF82BD5E5C3005BFBAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DC486CFF2BD5E5C3005BFBAF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DC486CFB2BD5E5C3005BFBAF /* Build configuration list for PBXProject "Forget Me Not - Habit Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"es-419",
+			);
+			mainGroup = DC486CF72BD5E5C3005BFBAF;
+			productRefGroup = DC486D012BD5E5C3005BFBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC486CFF2BD5E5C3005BFBAF /* Forget Me Not - Habit Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC486CFE2BD5E5C3005BFBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC486D0B2BD5E5C5005BFBAF /* Preview Assets.xcassets in Resources */,
+				DC1493792BE045C6005A3384 /* Localizable.xcstrings in Resources */,
+				DC486D1C2BD73E2F005BFBAF /* Gaegu-Bold.ttf in Resources */,
+				DC486D1B2BD73E2F005BFBAF /* Gaegu-Regular.ttf in Resources */,
+				DC486D082BD5E5C5005BFBAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC486CFC2BD5E5C3005BFBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC486D1F2BD94105005BFBAF /* ShownDate.swift in Sources */,
+				DC486D232BDAEA64005BFBAF /* HabitFactory.swift in Sources */,
+				DC3A3D952BDDC7FD00073AAD /* ManageHabitsView.swift in Sources */,
+				DC3A3D992BDDC83C00073AAD /* JumpToDateView.swift in Sources */,
+				DC3A3D912BDDC6A200073AAD /* HabitNameView.swift in Sources */,
+				DC486D122BD5E5DB005BFBAF /* Habit.swift in Sources */,
+				DC3A3D932BDDC6FB00073AAD /* DayView.swift in Sources */,
+				DC486D212BD95DDC005BFBAF /* Theme.swift in Sources */,
+				DC3A3DA32BDDC90000073AAD /* EditHabitView.swift in Sources */,
+				DC3A3D9F2BDDC8D300073AAD /* ManageHabitsSectionTitleView.swift in Sources */,
+				DC3A3D9D2BDDC8B700073AAD /* ManageHabitsListView.swift in Sources */,
+				DC3A3D9B2BDDC85600073AAD /* JumpToDateButtonView.swift in Sources */,
+				DC3A3DA12BDDC8ED00073AAD /* ManageHabitsRowView.swift in Sources */,
+				DC486D062BD5E5C3005BFBAF /* ContentView.swift in Sources */,
+				DC3A3DA52BDDC91300073AAD /* FormButtonView.swift in Sources */,
+				DC3A3D972BDDC82200073AAD /* BackButtonView.swift in Sources */,
+				DC486D042BD5E5C3005BFBAF /* HabitTrackerApp.swift in Sources */,
+				DC3A3D8F2BDDC65A00073AAD /* HabitListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC486D0C2BD5E5C5005BFBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC486D0D2BD5E5C5005BFBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC486D0F2BD5E5C5005BFBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Forget Me Not - Habit Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = X4A9D72G29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Forget Me Not - Habit Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Forget Me Not";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solmorelli.ForgetMeNot-HabitTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC486D102BD5E5C5005BFBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Forget Me Not - Habit Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = X4A9D72G29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Forget Me Not - Habit Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Forget Me Not";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solmorelli.ForgetMeNot-HabitTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC486CFB2BD5E5C3005BFBAF /* Build configuration list for PBXProject "Forget Me Not - Habit Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC486D0C2BD5E5C5005BFBAF /* Debug */,
+				DC486D0D2BD5E5C5005BFBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC486D0E2BD5E5C5005BFBAF /* Build configuration list for PBXNativeTarget "Forget Me Not - Habit Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC486D0F2BD5E5C5005BFBAF /* Debug */,
+				DC486D102BD5E5C5005BFBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC486CF82BD5E5C3005BFBAF /* Project object */;
+}

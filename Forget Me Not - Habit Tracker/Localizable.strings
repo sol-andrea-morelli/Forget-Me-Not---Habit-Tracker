@@ -1,0 +1,319 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "-- Hidden habits --" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-- Habitos escondidos --"
+          }
+        }
+      }
+    },
+    "-- No hidden habits --" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-- No hay habitos escondidos --"
+          }
+        }
+      }
+    },
+    "-- No visible habits --" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-- No hay habitos visibles --"
+          }
+        }
+      }
+    },
+    "-- Visible habits --" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-- Habitos visibles --"
+          }
+        }
+      }
+    },
+    "%@ %lldth" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$lldth"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ %2$lldth"
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        }
+      }
+    },
+    "+ New Habit" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+ Nuevo habito"
+          }
+        }
+      }
+    },
+    "< Back" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "< Atras"
+          }
+        }
+      }
+    },
+    ">" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ">"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        }
+      }
+    },
+    "Create new habit" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear nuevo hábito"
+          }
+        }
+      }
+    },
+    "Current month: %@" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mes seleccionado: %@"
+          }
+        }
+      }
+    },
+    "Current year: %@" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Año seleccionado: %@"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
+          }
+        }
+      }
+    },
+    "Delete \"%@\"?" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar \"%@\"?"
+          }
+        }
+      }
+    },
+    "Delete habit" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar habito"
+          }
+        }
+      }
+    },
+    "Deleting this habit will also delete all its completion history. Are you sure?" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar este habito eliminara tambien toda su historia. ¿Está seguro?"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo"
+          }
+        }
+      }
+    },
+    "Failed to create model container for SwiftData" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se ha podido crear model container para SwiftData"
+          }
+        }
+      }
+    },
+    "Go back" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volver"
+          }
+        }
+      }
+    },
+    "Habit name:" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre del habito:"
+          }
+        }
+      }
+    },
+    "Habit tracker" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Habit tracker"
+          }
+        }
+      }
+    },
+    "Hidden" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escondido"
+          }
+        }
+      }
+    },
+    "Jump to..." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saltar a..."
+          }
+        }
+      }
+    },
+    "Manage habits" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administrar habitos"
+          }
+        }
+      }
+    },
+    "Tap to add a new habit to the bottom of the list" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presionar para añadir un nuevo habito al final de la lista"
+          }
+        }
+      }
+    },
+    "Tap to edit this habit" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presionar para editar este habito"
+          }
+        }
+      }
+    },
+    "Tap to mark this day as %@ completed" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presionar para marcar este dia como %@ completado"
+          }
+        }
+      }
+    },
+    "Tap to switch between values" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presionar para cambiar de valor"
+          }
+        }
+      }
+    },
+    "Visible" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visible"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
