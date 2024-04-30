@@ -22,7 +22,7 @@ struct HabitListView: View {
     
     var body: some View {
         ScrollView {
-            Text("Habit tracker")
+            Text("Forget Me Not")
                 .font(.custom("Gaegu-Bold", size: 42, relativeTo: .title))
                 .multilineTextAlignment(.center)
                 .accessibilityAddTraits(.isHeader)
